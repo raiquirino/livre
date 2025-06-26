@@ -42,7 +42,7 @@
 
 
     body {
-        background-image: linear-gradient(135deg, #f7be06, #f0c14b, #ffd700, #fcd440, #2b2b2b);
+        background-image: linear-gradient(135deg, #f7be06, #d89d08, #978417, #5c4a08, #2b2b2b);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1em;
         position: relative;
@@ -88,7 +88,6 @@
 
     footer {
         background-color: black;
-  
     }
 
     footer p {
