@@ -12,7 +12,7 @@
         justify-content: center;
         padding-right: 20px;
         height: 100px;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.288);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
         position: sticky;
         top: -1px;
     }
@@ -24,10 +24,15 @@
         text-shadow: 1px 1px 1px  rgb(230, 219, 71);
     }
 
+    h2 {
+        margin: 0px 0px 0px 30px;
+        padding: 10px;
+    }
 
     #logo_header {
         width: 100px;
         height: auto; /* ajuste conforme necessário */
+
     }
     
     #logo_header img {
@@ -37,7 +42,7 @@
 
 
     body {
-        background-color: rgb(122, 105, 5);
+        background-image: linear-gradient(135deg, #f7be06, #f0c14b, #ffd700, #fcd440, #2b2b2b);
         position: relative;
     }
 
@@ -49,24 +54,44 @@
     }
 
     article {
-        width: 300px;
+        width: 333px;
         text-align: justify;
         padding: 10px;
+        text-indent: 20px;
     }
+
+    
+    main > p {
+        padding: 10px;
+        text-indent: 30px;
+    }
+    
+        .img {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza as imagens horizontalmente */
+            padding: 30px;
+    
+        }
+    
+        .imagem_responviva { /** Tamanho e posicao da imagem**/
+            width: 300;
+            height: auto;
+            margin: 0;
+    
+        }
 
     footer {
         background-color: black;
+    }
+
+    footer > p {
         color: white;
         text-align: center;
         padding: 10px;
     }
 
-    .imagem_responsiva {
-        display: block;
-        width: auto;
-    }
+    footer > a {
+        text-decoration: none;
 
-    main > p {
-        padding: 10px;
-        text-indent: 30px;
     }
