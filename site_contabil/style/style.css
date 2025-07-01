@@ -8,24 +8,36 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:lightgrey;
+    position: relative;
 }
 
 header {
     background-color: black;
     height: 150px;
     color: white;
+    width: auto;
+    position:sticky;
+    top: -1px;
+}
+
+header h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;   
+}
+
+header p {
+    text-align: center;
 }
 
 header nav {
-    padding-top: 80px;
-
+    padding-top: 20px;
+    padding-left: 5%;
 }
 
 header nav a {
     text-decoration: none;
     color: white;
-    
-
 }
 
 main {
@@ -34,6 +46,24 @@ main {
     height: 100vh;
     margin: auto;  
 }
+
+.quemsomos {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Espaço entre texto e imagem */
+  width: 1000PX;
+}
+
+.quemsomos div {
+  flex: 1; /* O texto ocupa o máximo de espaço possível */
+}
+
+.quemsomos img {
+  max-width: 500px;
+  height: auto;
+  
+}
+
 
 main h1 {
     padding-left: 30px;
@@ -47,8 +77,12 @@ section {
     background-attachment: fixed;
 }
 
-section > p {
-    padding-bottom: 1em;
+section > ul {
+    font-size: 1.5em;
+    padding-left: 50px;
+    color: black;
+    border: solid 1px 1px 1px white;
+
 }
 
 section.imagem {
