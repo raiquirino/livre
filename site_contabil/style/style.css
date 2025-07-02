@@ -48,14 +48,25 @@ main {
 }
 
 .quemsomos {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px; /* Espaço entre texto e imagem */
-  width: 1000PX;
+    padding-top: 30px;
+    padding-left: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 80%; /* Espaço entre texto e imagem */
+    width: 50%;
 }
 
 .quemsomos div {
-  flex: 1; /* O texto ocupa o máximo de espaço possível */
+    max-width: 300px;
+    max-height: 300px;
+    flex: 1; /* O texto ocupa o máximo de espaço possível */
+}
+
+.quemsomos p {
+    width: 550px;
+    padding-top: 30px;
+    padding-left: 40px;
+
 }
 
 .quemsomos img {
@@ -65,8 +76,13 @@ main {
 }
 
 
+
 main h1 {
     padding-left: 30px;
+}
+
+.servicos {
+    padding-top: 100px;
 }
 
 section {
@@ -77,14 +93,6 @@ section {
     background-attachment: fixed;
 }
 
-section > ul {
-    font-size: 1.5em;
-    padding-left: 50px;
-    color: black;
-    border: solid 1px 1px 1px white;
-
-}
-
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
@@ -93,15 +101,37 @@ section.imagem {
     background-attachment: fixed;
 }
 
-section.imagem > P {
+section.imagem > ul {
+    font-size: 1.5em;
+    padding-left: 50px;
+    color: white;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
-    padding: 5px;
-    text-shadow: 1px 1px 0px black;/* 1px espalhamento lateral - 1px espalhamento verticcal - 1px espalhamento - black cor */
+    padding: 15px 0px 15px 100px;
+    text-shadow: 1px 1px 0px rgba(219, 213, 213, 0.644); /* 1px espalhamento lateral - 1px espalhamento verticcal - 1px espalhamento - black cor */
 }
 
 section#img01 {
+    width: 90vi;
+    height: 270px;
     background-image: url(../image/imagem01.png);
     background-position: right center;
+}
 
+div .redessociais {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#contato {
+    
+}
+
+#rede {
+    display: inline-flex;
+    width: 30px;
+    height: auto;
 }
