@@ -53,7 +53,7 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 80%; /* Espaço entre texto e imagem */
-    width: 50%;
+    width: 25%;
 }
 
 .quemsomos div {
