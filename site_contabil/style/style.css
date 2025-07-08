@@ -11,86 +11,59 @@ body {
     position: relative;
 }
 
-header {
-    background-color: black;
-    height: 150px;
-    color: white;
-    width: auto;
+.cabeçalho_fixo {
     position:sticky;
     top: -1px;
 }
 
-.cabecalho {
-    display: flex;
-    align-items: flex-start;
-
-}
-.cabecalho nav {
-    padding-top: 20px;
-    padding-left: 5%;
-
-}
-
-.cabecalho h1{
-    padding-top: 30px;
-    padding-bottom: 20px;
-    text-align: center;   
-}
-
-header p {
+header {
+    background-color: #113450;
+    height: 100px;
+    color: white;
+    width: auto;
     text-align: center;
 }
 
+header h1 {
+    padding-top: 25px;
+}
 
-
-header nav a {
+nav {
+    position: sticky;
+    top: -200px;
+    padding-left: 4.5vw;
+    color: white;
+    background-color: black;
+}
+nav a {
     text-decoration: none;
     color: white;
 }
 
+
 main {
     background-color: white;
     width: 90vw;
-    height: 100vh;
+    height: 90vh;
     margin: auto;  
 }
 
-.quemsomos {
-    padding-top: 30px;
-    padding-left: 40px;
-    display: flex;
-    align-items: flex-start;
-    gap: 80%; /* Espaço entre texto e imagem */
-    width: 25%;
+div.main_quadrado {
+    padding-top: 10px;
 }
 
-.quemsomos div {
-    max-width: 300px;
-    max-height: 300px;
-    flex: 1; /* O texto ocupa o máximo de espaço possível */
+div.quadrado {
+    padding-top: 10px;
+    width: 90vw;
+    height: 150px;
 }
-
-.quemsomos p {
-    width: 550px;
-    padding-top: 30px;
-    padding-left: 40px;
-
-}
-
-.quemsomos img {
-  max-width: 500px;
-  height: auto;
-  
-}
-
-
 
 main h1 {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .servicos {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 section {
@@ -102,20 +75,23 @@ section {
 }
 
 section.imagem {
+    padding-top: 30px;
     background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px 0px black;
     background-size: cover;
     background-attachment: fixed;
 }
+section.imagem > ul > h2 {
+    font-size: 1.3em;
+}
 
 section.imagem > ul {
-    font-size: 1.5em;
-    padding-left: 50px;
+    font-size: 1.3em;
     color: white;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
-    padding: 15px 0px 15px 100px;
+    padding: 15px 0px 15px 50px;
     text-shadow: 1px 1px 0px rgba(219, 213, 213, 0.644); /* 1px espalhamento lateral - 1px espalhamento verticcal - 1px espalhamento - black cor */
 }
 
@@ -123,31 +99,22 @@ section#img01 {
     width: 90vi;
     height: 270px;
     background-image: url(../image/imagem01.png);
-    background-position: right center;
+    background-position: left center;
 }
 
-div .redessociais {
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-}
-
-#contatos h2 {
-    text-align: center;
-}
 
 #rede {
     display: inline-flex;
-    width: 30px;
+    width: 25px;
     height: auto;
 }
 
 footer {
+    position: sticky;
+    bottom: -1px;
+    height: 30px;
+    width: 100vi;
     background-color: black;
     color: white;
     text-align: center;
-    height: 30px;
-    width: 100vi;
 }
