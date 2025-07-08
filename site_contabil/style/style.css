@@ -31,7 +31,7 @@ header {
 
 }
 
-header h1{
+.cabecalho h1{
     padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;   
